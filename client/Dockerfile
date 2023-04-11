@@ -8,4 +8,4 @@ RUN yarn install
 
 COPY ./ ./
 
-CMD ["yarn", "dev"]
+CMD ["yarn", "dev", "--host", "0.0.0.0"]
